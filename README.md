@@ -44,7 +44,7 @@ Las pruebas automatizadas incluyen:
 
 ▶️ Ejecución de las Pruebas
 
-1. Clonar el repositorio: git clone https://github.com/tu-usuario/qa-automation-selenium-cucumber.git
+1. Clonar el repositorio: git clone https://github.com/KareliaAntunez/Quality-Assurance-.git
 2. Abrir el proyecto en VIsual Studio
 3. Instalar dependencias con Maven: mvn clean install
 4. Ejecutar las pruebas: mvn test
