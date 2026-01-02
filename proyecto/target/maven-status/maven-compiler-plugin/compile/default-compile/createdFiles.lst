@@ -1,0 +1,6 @@
+com\proyecto\automatizacion\utils\ExtentReportManager.class
+com\proyecto\automatizacion\utils\ConfigReader.class
+com\proyecto\automatizacion\pages\LoginPage$LoginResult.class
+com\proyecto\automatizacion\App.class
+com\proyecto\automatizacion\pages\LoginPage.class
+com\proyecto\automatizacion\utils\DriverManager.class

@@ -1,0 +1,4 @@
+com\proyecto\automatizacion\hooks\Hooks.class
+com\proyecto\automatizacion\AppTest.class
+com\proyecto\automatizacion\runners\TestRunner.class
+com\proyecto\automatizacion\stepDefinitions\LoginSteps.class

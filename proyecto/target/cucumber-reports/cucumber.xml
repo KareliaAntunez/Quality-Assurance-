@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.214" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Login de usuario en Swag Labs" name="Validacion del valor del subtotal en el Checkout" time="16.859">
+<system-out><![CDATA[
+Given que el usuario abre la página de Swag Labs............................passed
+When ingresa el usuario "standard_user" y la contraseña "secret_sauce"......passed
+And hace clic en el botón de login..........................................passed
+Then debería ver la página de productos con el título "Products"............passed
+Then debería agregar al carrito "Sauce Labs Backpack".......................passed
+And hace clic en el botón de Add to cart para "Sauce Labs Backpack".........passed
+Then debería agregar al carrito "Sauce Labs Bike Light".....................passed
+And hace clic en el botón de Add to cart para "Sauce Labs Bike Light".......passed
+And hace clic en el botón de carrito........................................passed
+Then debería ver la página del carrito con el título "Your Cart"............passed
+And hace clic en el botón de checkout.......................................passed
+Then debería ver la página del checkout con el título "Checkout: Your Information".passed
+When ingresa el First Name "Juan", el Last Name "Perez" y el Postal Code "1".passed
+And hace clic en el botón de continue.......................................passed
+Then debería ver la página del checkout con el título "Checkout: Overview"..passed
+And debería verificar que el subtotal concuerda con la suma de los artículos.passed
+And hace clic en el botón de finish.........................................passed
+Then debería ver el mensaje de confirmación de pedido.......................passed
+]]></system-out>
+</testcase>
+</testsuite>
